@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head> Different techniques incorpating CSS with HTMl 
+    <title> ADV HTML-CSS </title>
+    <link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+#scroll {
+    transform: translateX(100%);
+    
+    animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(100%);}
+    100% { transform: translateX(0%);}
+}
+</style>
+<body>
+    <h2> Scroolling Text </h2>
+    <p id='scroll'> Let's move this text </p>
+</body>

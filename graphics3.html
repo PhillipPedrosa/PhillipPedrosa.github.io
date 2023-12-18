@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head> SVG animation </head>
+<title> animation </title>
+
+<body>
+	<h1> animation <h1>
+	
+	<h3> circle </h3>
+	<p> Let's move the circle </p>
+	
+		<svg>
+			<g>
+					<circle cx='100' cy='100' r='50' stroke='red'
+					fill='yellow'> </circle>
+					<animateMotion path='M O O  V O H 100 Z' dur='1s'
+					repeatCount = '5'/>
+					</g>
+				</svg>
+				
+			<!-- create a green circle and make it move 10 times for 15 seconds 
+			in a different path-->
+		<svg>
+			<g>
+					<circle cx='100' cy='100' r='50' stroke='beige'
+					fill='green'> </circle>
+					<animateMotion path='M O O  V O H 100 Z' dur='15s'
+					repeatCount = '10'/>
+					</g>
+				</svg>
+				<h2> moving a shape in a square path </h2>
+				<svg width='400' height='300'>
+					<g>
+						<rect width= '70' height='30' fill='blue'
+						stroke='yellow' stroke-width='2'>
+						<animateMotion path='M 10 10 H 330 V 200 H O Z' 
+						dur='1s' repeat count = 'indefinite'/>
+					</g>
+					</svg>
+					<br>
+<!-- create a solar system with at least 2 planets revolving around our sun -->
+				<svg width='1500' height='1500'>
+				<g>
+					<circle cx='400' cy='400' r='100' stroke='yellow'
+					fill='yellow' ></circle>
+					<circle cx='100' cy='100' r='50' stroke='green'
+					fill='blue' />
+					<animateMotion path= 'm 10 170 h -330 V -300 H O Z'
+				dur='5s' repeatCount = '2'/></circle
+			
+				
+				
+					<circle cx='100' cy='100' r='50' stroke='red'
+					fill='red'> </circle>
+					
+					<animateMotion path='M 10 220 H -420 v -250 H O Z' 
+					dur='9.5s' repeatCount = '2'/><circle>
+				</g>
+				</svg>
+				
+			
+</body>
+</html>

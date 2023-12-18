@@ -1,0 +1,14 @@
+<!Doctype html>
+<html>
+<head>
+<title> Contact Me </title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav style='background-color: lightblue; text-align: center; font-weight: bold; font-size: 20pt;'>
+<a href="AboutMe.html"> About Me </a> &nbsp &nbsp &nbsp
+<a href="Hobbby.html"> My Hobbies </a> &nbsp &nbsp &nbsp
+<a href="Portfolio.html"> Portfolio </a> &nbsp &nbsp &nbsp
+<a href="ComputerComponents.html"> Computer Components </a> &nbsp &nbsp &nbsp
+<a href="Form.html"> Form </a> &nbsp &nbsp &nbsp
+</nav>
